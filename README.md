@@ -106,6 +106,26 @@ Run tests once (CI mode):
 npm test -- --run
 ```
 
+## Releases
+
+This project uses [release-please](https://github.com/googleapis/release-please) for automated releases and changelog generation.
+
+### How It Works
+
+1. Commit changes using [Conventional Commits](https://www.conventionalcommits.org/)
+2. Push to `main` branch
+3. Release-please bot creates a release PR with:
+   - Updated `CHANGELOG.md`
+   - Bumped version in `package.json`
+   - Release notes
+4. Merge the release PR to create a GitHub release
+
+### Version Bumping
+
+- `feat:` commits → minor version bump (1.0.0 → 1.1.0)
+- `fix:` commits → patch version bump (1.0.0 → 1.0.1)
+- `feat!:` or `BREAKING CHANGE:` → major version bump (1.0.0 → 2.0.0)
+
 ## Contributing
 
 We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
