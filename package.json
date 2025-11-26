@@ -1,6 +1,6 @@
 {
   "name": "bugbug-recorder-clone",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "type": "module",
   "description": "Chrome Recorder extension, equivalent to BugBug.io recorder",
   "scripts": {
