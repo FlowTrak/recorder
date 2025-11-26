@@ -15,7 +15,7 @@
     "@release-it/conventional-changelog": {
       "preset": "angular",
       "infile": "CHANGELOG.md",
-      "ignoreRecommendedBump": false
+      "whatBump": false
     }
   }
 }
