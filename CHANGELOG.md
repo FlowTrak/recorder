@@ -14,6 +14,23 @@
 * ci: fix release-it,release-please 3e7aaf1
 * ci: setup release-it 82733a7
 
+## [1.1.0](https://github.com/FlowTrak/recorder/compare/recorder-v1.0.0...recorder-v1.1.0) (2025-11-26)
+
+
+### Features
+
+* add UnoCSS styling and automated changelog with release-please ([06defb2](https://github.com/FlowTrak/recorder/commit/06defb21f736b8a4dc0508924170d7bb6b6ddccb))
+
+
+### Bug Fixes
+
+* ci, Dependencies lock file is not found ([f171f30](https://github.com/FlowTrak/recorder/commit/f171f30a1cdf9e5e74652f57f28864a8356afb5d))
+
+
+### Documentation
+
+* add README, CONTRIBUTING, LICENSE and integrate UnoCSS ([d5cade4](https://github.com/FlowTrak/recorder/commit/d5cade4a013df2d0b3b22c67bc4244bc51d89b82))
+
 ## 1.1.0 (2025-11-26)
 
 - ci: setup release-it 82733a7
