@@ -1,12 +1,13 @@
 /// <reference types="vitest" />
 import { defineConfig } from 'vitest/config';
 import vue from '@vitejs/plugin-vue';
+import UnoCSS from 'unocss/vite';
 import { resolve } from 'path';
 
 // https://vitejs.dev/config/
 export default defineConfig({
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  plugins: [vue()] as any,
+  plugins: [vue(), UnoCSS()] as any,
   resolve: {
     alias: {
       '@': resolve(__dirname, './src'),
