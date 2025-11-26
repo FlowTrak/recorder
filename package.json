@@ -9,6 +9,7 @@
     "build:check": "vue-tsc --noEmit",
     "preview": "vite preview",
     "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
     "format": "prettier --write .",
     "test": "vitest",
     "prepare": "husky"
