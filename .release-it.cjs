@@ -1,4 +1,6 @@
-const { createConventionalRecommendedBumpOpts } = require('conventional-changelog-angular/conventionalRecommendedBump');
+const {
+  createConventionalRecommendedBumpOpts,
+} = require('conventional-changelog-angular/conventionalRecommendedBump');
 const { createParserOpts } = require('conventional-changelog-angular/parserOpts');
 
 const parserOpts = createParserOpts();
