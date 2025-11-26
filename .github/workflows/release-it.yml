@@ -4,9 +4,11 @@ on:
   push:
     branches:
       - main
-    # Trigger on version tag pushes as well
     tags:
       - 'v*'
+
+permissions:
+  contents: read
 
 jobs:
   release:
