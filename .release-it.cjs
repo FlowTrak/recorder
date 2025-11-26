@@ -8,21 +8,21 @@ module.exports = {
   git: {
     requireCleanWorkingDir: false,
     tagName: 'v${version}',
-    commitMessage: 'chore(release): ${version} [skip ci]'
+    commitMessage: 'chore(release): ${version} [skip ci]',
   },
   github: {
     release: true,
-    releaseName: 'Release ${version}'
+    releaseName: 'Release ${version}',
   },
   npm: {
-    publish: false
+    publish: false,
   },
   plugins: {
     '@release-it/conventional-changelog': {
       preset: 'angular',
       infile: 'CHANGELOG.md',
       parserOpts,
-      whatBump
-    }
-  }
+      whatBump,
+    },
+  },
 };
