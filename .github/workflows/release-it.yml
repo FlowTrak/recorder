@@ -33,5 +33,5 @@ jobs:
 
       - name: Run release-it
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.FLOW_TRACK_ORG_TOKEN }}
         run: npm run release -- --ci
